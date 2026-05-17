@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/HTML/index.html" },
+    { "source": "/research", "destination": "/HTML/research.html" },
+    { "source": "/education", "destination": "/HTML/education.html" },
+    { "source": "/academics", "destination": "/HTML/academics.html" },
+    { "source": "/contact", "destination": "/HTML/contact.html" },
+    { "source": "/tools", "destination": "/HTML/tools.html" },
+    { "source": "/search", "destination": "/HTML/search.html" },
+    { "source": "/admin", "destination": "/HTML/admin.html" }
+  ]
+}
