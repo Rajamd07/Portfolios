@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Dr. Mohamed Hasain N — send a query or connect via academic profiles.">
+  <title>Contact — Dr. Mohamed Hasain N</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/components.css">
+  <link rel="stylesheet" href="../CSS/animations.css">
+  <link rel="stylesheet" href="../CSS/responsive.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen"><div class="loader-ring"></div><div class="loader-text">Loading...</div></div>
+  <div class="bg-grid"></div>
+  <div class="bg-gradient-blob blob-cyan"></div>
+  <div class="bg-gradient-blob blob-purple"></div>
+  <canvas id="particle-canvas"></canvas>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-custom" id="mainNav">
+    <div class="container-custom">
+      <a class="navbar-brand" href="index.html"><span class="brand-dot"></span>MH<span class="text-gradient">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+          <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn-outline-glow" href="search.html" style="padding:0.4rem 1rem;font-size:0.8rem;"><i class="bi bi-search"></i> Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section-padding" style="padding-top:calc(var(--section-padding) + 80px);">
+    <div class="container-custom">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="bi bi-envelope"></i> Contact</span>
+        <h1>Get in <span class="text-gradient">Touch</span></h1>
+        <p>Reach out for collaborations, inquiries, or just to connect</p>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="section-padding" style="padding-top:2rem;">
+    <div class="container-custom">
+      <div class="row g-4">
+        <!-- Contact Info -->
+        <div class="col-lg-5">
+          <div class="glass-card reveal mb-4" style="border-left:3px solid var(--cyan);">
+            <h4 class="mb-3"><i class="bi bi-envelope-at text-cyan me-2"></i>Email</h4>
+            <p>Feel free to reach out via email for academic collaborations, research queries, or general inquiries.</p>
+            <a href="mailto:mohamedhasaincivil@gmail.com?subject=Inquiry%20from%20Portfolio%20Website&body=Dear%20Dr.%20Hasain,%0A%0AI%20am%20writing%20to%20you%20regarding%20..." class="btn-glow mt-2">
+              <i class="bi bi-send"></i> Send Email
+            </a>
+          </div>
+
+          <div class="glass-card reveal mb-4">
+            <h4 class="mb-3"><i class="bi bi-geo-alt text-purple me-2"></i>Office Address</h4>
+            <div id="officeAddress" style="color:var(--text-secondary);line-height:2;"></div>
+          </div>
+
+          <div class="glass-card reveal">
+            <h4 class="mb-3"><i class="bi bi-share text-cyan me-2"></i>Academic Profiles</h4>
+            <div id="socialProfilesList" class="d-flex flex-column gap-2"></div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="glass-card reveal">
+            <h4 class="mb-1"><i class="bi bi-chat-dots text-cyan me-2"></i>Send a Query</h4>
+            <p class="mb-4" style="font-size:0.85rem;color:var(--text-muted);">Your message will be recorded and responded to at the earliest.</p>
+            <form id="contactForm" class="form-floating-custom">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" style="color:var(--text-secondary);font-size:0.85rem;">Full Name *</label>
+                  <input type="text" class="form-control" id="contactName" required placeholder="Your full name">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" style="color:var(--text-secondary);font-size:0.85rem;">Email *</label>
+                  <input type="email" class="form-control" id="contactEmail" required placeholder="your@email.com">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" style="color:var(--text-secondary);font-size:0.85rem;">Subject *</label>
+                  <input type="text" class="form-control" id="contactSubject" required placeholder="Subject of your query">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" style="color:var(--text-secondary);font-size:0.85rem;">Category</label>
+                  <select class="form-control" id="contactCategory">
+                    <option value="general">General Inquiry</option>
+                    <option value="collaboration">Research Collaboration</option>
+                    <option value="student">Student Query</option>
+                    <option value="consultation">Consultation Request</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" style="color:var(--text-secondary);font-size:0.85rem;">Message *</label>
+                  <textarea class="form-control" id="contactMessage" rows="5" required placeholder="Write your message here..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-glow w-100">
+                    <i class="bi bi-send"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div id="contactSuccess" class="mt-3 text-center" style="display:none;">
+              <div class="glass-card" style="border:1px solid var(--cyan);background:rgba(0,240,255,0.05);">
+                <i class="bi bi-check-circle text-cyan" style="font-size:2rem;"></i>
+                <p class="mt-2 mb-0" style="color:var(--cyan);">Your message has been sent successfully!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-main">
+    <div class="container-custom">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6"><div class="footer-brand">Dr. Mohamed Hasain N</div><p class="footer-text">Postdoctoral Researcher at IIT Bombay.</p><div class="footer-social mt-3" id="footerSocials"></div></div>
+        <div class="col-lg-2 col-md-6 footer-links"><h5>Navigate</h5><ul><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="education.html">Education</a></li><li><a href="academics.html">Academics</a></li></ul></div>
+        <div class="col-lg-2 col-md-6 footer-links"><h5>More</h5><ul><li><a href="tools.html">Tools</a></li><li><a href="contact.html">Contact</a></li><li><a href="search.html">Search</a></li></ul></div>
+        <div class="col-lg-4 col-md-6 footer-links"><h5>Contact</h5><ul><li><a href="mailto:mohamedhasaincivil@gmail.com"><i class="bi bi-envelope"></i> mohamedhasaincivil@gmail.com</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span id="footerYear"></span> Dr. Mohamed Hasain N. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop"><i class="bi bi-chevron-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../JS/app.js"></script>
+  <script src="../JS/animations.js"></script>
+  <script src="../JS/components.js"></script>
+  <script src="../JS/contact.js"></script>
+</body>
+</html>

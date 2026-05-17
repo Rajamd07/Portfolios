@@ -1,0 +1,346 @@
+================================================================================
+PORTFOLIO REQUIREMENTS DOCUMENT
+Dr. Mohamed Hasain N — Academic Portfolio Website
+================================================================================
+
+--------------------------------------------------------------------------------
+PERSONAL INFORMATION
+--------------------------------------------------------------------------------
+Name               : Mohamed Hasain N, Ph.D.
+Title/Designation  : Post Doctoral Fellow
+Current Position   : Postdoctoral Researcher
+Institution        : Transportation Systems Engineering Lab,
+                     Department of Civil Engineering,
+                     Indian Institute of Technology Bombay,
+                     Powai, Mumbai – 400076, Maharashtra, India
+Tagline            : Interdisciplinary Transport Researcher
+
+--------------------------------------------------------------------------------
+CONTACT INFORMATION
+--------------------------------------------------------------------------------
+Email : mohamedhasaincivil@gmail.com
+
+Office Address:
+  Transportation Systems Engineering Lab
+  Department of Civil Engineering
+  Indian Institute of Technology Bombay
+  Powai, Mumbai – 400076
+  Maharashtra, India
+
+--------------------------------------------------------------------------------
+ACADEMIC / SOCIAL PROFILES
+--------------------------------------------------------------------------------
+Google Scholar : https://scholar.google.com/citations?user=CJPTgYwAAAAJ&hl=en
+ORCID          : https://orcid.org/0000-0001-8842-5801
+Scopus         : https://www.scopus.com/authid/detail.uri?authorId=57936584500
+ResearchGate   : https://www.researchgate.net/profile/N-Mohamed-Hasain?ev=hdr_xprf
+LinkedIn       : https://www.linkedin.com/in/mohamed-hasain-n
+
+--------------------------------------------------------------------------------
+PROFESSIONAL BACKGROUND (Home Page)
+--------------------------------------------------------------------------------
+Dr. Mohamed Hasain N holds a doctorate in Transportation Engineering from the
+National Institute of Technology Silchar, India. His research interests include
+traffic safety analysis, crash modelling, transportation planning, and direct
+demand modelling using machine learning techniques. He was awarded the University
+Silver Medal for academic excellence in his master's program at NIT Silchar.
+Dr. Hasain is currently serving as a Post-Doctoral Researcher at the
+Transportation Systems Engineering Laboratory, Department of Civil Engineering,
+Indian Institute of Technology Bombay. He has been actively involved in several
+research projects aimed at improving safe and secure first- and last-mile
+connectivity, particularly for pedestrians, in metro transit systems, as well as
+assessing the resilience of suburban rail networks in emerging countries in
+response to rainfall events.
+
+--------------------------------------------------------------------------------
+RESEARCH INTERESTS
+--------------------------------------------------------------------------------
+1. Traffic Microsimulation
+2. Surrogate Safety Analysis
+3. Transportation Network Resilience
+4. Data-Driven Modelling
+5. Direct Demand Modelling
+
+--------------------------------------------------------------------------------
+RESEARCH IMPACT METRICS
+--------------------------------------------------------------------------------
+Peer Reviewed Journal Publications : 7      (Source: Scopus)
+Total Citations                     : 27     (Source: Google Scholar)
+h-index                             : 3      (Source: Google Scholar)
+i10-index                           : 1      (Source: Google Scholar)
+
+--------------------------------------------------------------------------------
+JOURNAL ARTICLES (7 Publications)
+--------------------------------------------------------------------------------
+1. Hasain, N. M. & Ahmed, M. A. (2025).
+   Traffic safety evaluation using surrogate safety measures in the context of
+   Indian mixed traffic: A critical review.
+   IATSS Research, 49(2), 201–219.
+   DOI: 10.1016/j.iatssr.2025.04.004
+
+2. Maddu, K., Jena, S., & Hasain, N. M. (2025).
+   Dedicated bus lane vs queue jump lane: a microsimulation case study of
+   Guwahati city using VISSIM under mixed traffic conditions.
+   Transportation Planning and Technology, 1–28.
+   DOI: 10.1080/03081060.2025.2487864
+
+3. Hasain, N. M. & Ahmed, M. A. (2024).
+   Identification of critical conflicts and its implementation in microsimulation
+   for effective safety assessment in unsignalized intersections.
+   Transportmetrica B: Transport Dynamics, 12(1), 2350520.
+   DOI: 10.1080/21680566.2024.2350520
+
+4. Hasain, N. M. & Ahmed, M. A. (2024).
+   Assessing the impact of reaction time on the crossing and merging conflicts
+   and identifying suitable reaction time to detect the critical conflict.
+   Transportation Planning and Technology, 47(7), 1156–1178.
+   DOI: 10.1080/03081060.2024.2341313
+
+5. Hasain, N. M. & Ahmed, M. A. (2023).
+   Proposing an effective approach for traffic safety assessment on heterogeneous
+   traffic conditions using surrogate safety measures and speed of the involved
+   vehicles.
+   Traffic Injury Prevention, 25(2), 1–9.
+   DOI: 10.1080/15389588.2023.2289343
+
+6. Hasain, N. M., Ahmed, M. A., Jena, S., & Khan, H. R. (2023).
+   Comparison of different calibration methods in modelling the unsignalized
+   intersection using VISSIM with vehicular flow as the fitness measure.
+   Advances in Transportation Studies, 60, 17–32.
+
+7. Hasain, N. M. & Ahmed, M. A. (2022).
+   Safety evaluation of unsignalized intersection with heterogeneous traffic
+   using Post Encroachment Time and conflicting vehicle speed.
+   European Transport / Trasporti Europei, 88, 1–14.
+   DOI: 10.48295/ET.2022.88.3
+
+--------------------------------------------------------------------------------
+KEY PUBLICATIONS (Highlighted on Home Page)
+--------------------------------------------------------------------------------
+1. Hasain N. M. & Ahmed, M. A. (2025).
+   Traffic safety evaluation using surrogate safety measures in the context of
+   Indian mixed traffic: A critical review.
+   IATSS Research, 49(1), 1–16.
+   DOI: 10.1016/j.iatssr.2025.04.004
+
+2. Hasain, N. M. & Ahmed, M. A. (2024).
+   Identification of critical conflicts and its implementation in microsimulation
+   for effective safety assessment in unsignalized intersections.
+   Transportmetrica B: Transport Dynamics, 12(1), 2350520.
+   DOI: 10.1080/21680566.2024.2350520
+
+3. Hasain, N. M. & Ahmed, M. A. (2023).
+   Proposing an effective approach for traffic safety assessment on heterogeneous
+   traffic conditions using surrogate safety measures and speed of the involved
+   vehicles.
+   Traffic Injury Prevention, 25(2), 1–9.
+   DOI: 10.1080/15389588.2023.2289343
+
+--------------------------------------------------------------------------------
+BOOK CHAPTERS & PROCEEDINGS (2 entries)
+--------------------------------------------------------------------------------
+1. Hasain, N. M., Ahmed, M. A., & Reddy, B. V. (2025).
+   Modelling and calibration of a mixed traffic road section in VISSIM with
+   multiple measure of effectiveness through genetic algorithm.
+   Lecture Notes in Civil Engineering, 426, 83–100.
+   DOI: 10.1007/978-981-96-1037-2_6
+
+2. Hasain, N. M. & Ahmed, M. A. (2021).
+   Safety enhancement of unsignalized intersection using microsimulation and
+   surrogate safety measures.
+   IOP Conference Series: Earth and Environmental Science, 796(1), 012016.
+   DOI: 10.1088/1755-1315/796/1/012016
+
+--------------------------------------------------------------------------------
+CONFERENCE PRESENTATIONS (3 entries)
+--------------------------------------------------------------------------------
+1. Hasain, N. M., Ahmed, M. A., & Reddy, B. V. (2023).
+   Modelling and calibration of a mixed traffic road section in VISSIM with
+   multiple measure of effectiveness through genetic algorithm.
+   7th Conference of Transport Research Group (CTRG),
+   December 17–20, 2023, SVNIT Surat, Gujarat.
+
+2. Hasain, N. M. & Ahmed, M. A. (2021).
+   Safety enhancement of unsignalized intersection using microsimulation and
+   surrogate safety measures.
+   Community Based Research and Innovations in Civil Engineering (CBRICE),
+   March 18–19, 2021, Manipal University, Jaipur, Rajasthan.
+
+3. Hasain, N. M. & Ahmed, M. A. (2020).
+   Proactive evaluation of traffic safety in unsignalized intersection using
+   surrogate safety measures.
+   13th TPMDC – Transportation Planning and Implementation Methodologies for
+   Developing Countries,
+   December 10–11, 2020, IIT Bombay, Mumbai.
+
+--------------------------------------------------------------------------------
+JOURNALS FEATURED (Preview Section)
+--------------------------------------------------------------------------------
+1. IATSS Research
+2. Transportmetrica B: Transport Dynamics
+3. Traffic Injury Prevention
+4. Transportation Planning and Technology
+
+--------------------------------------------------------------------------------
+EDUCATION
+--------------------------------------------------------------------------------
+1. Ph.D. in Transportation Engineering
+   National Institute of Technology Silchar
+   2020 – 2024
+
+2. M.Tech. in Transportation Engineering
+   National Institute of Technology Silchar
+   2018 – 2020
+   Silver Medallist
+
+3. B.E. in Civil Engineering
+   University College of Engineering, BIT Campus, Anna University, Trichy
+   2013 – 2017
+
+--------------------------------------------------------------------------------
+TEACHING EXPERIENCE
+--------------------------------------------------------------------------------
+Role: Teaching Assistant
+
+Indian Institute of Technology Bombay (2024–Present)
+  - CE 773 – Geometric Design and Analysis of High-Speed Roadways
+
+National Institute of Technology Silchar (2020–2024)
+  - CE 5403 – Traffic Engineering
+  - CE 313  – Transportation Engineering Laboratory
+  - CE 5404 – Transportation Engineering Lab
+  - CE 1202 – Surveying
+  - CE 101  – Engineering Graphics and Design
+
+Note: Mentored undergraduate and postgraduate students in traffic simulation
+and data modelling techniques as part of teaching assistantship.
+
+--------------------------------------------------------------------------------
+PROFESSIONAL EXPERIENCE
+--------------------------------------------------------------------------------
+Position   : Postdoctoral Researcher
+Lab        : Transportation Systems Engineering Lab, IIT Bombay
+Period     : 2024–Present
+
+Research Activities:
+  - Network Analysis  : Resilience analysis of urban transport networks using
+                        GPS and rainfall data
+  - Machine Learning  : ML-based direct demand modelling for transit ridership
+                        in emerging economies
+  - TUTEM Project     : Working on ADB-funded TUTEM project with:
+                          1. IIT Kharagpur
+                          2. BITS Pilani
+                          3. Location Mind
+
+--------------------------------------------------------------------------------
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+Traffic Simulation : VISSIM
+Programming        : Python, MATLAB, C
+Data Analysis      : Pandas, NumPy, scikit-learn, TensorFlow
+Other Tools        : QGIS, Excel (advanced), Civil3D
+
+--------------------------------------------------------------------------------
+ACADEMIC ACHIEVEMENTS
+--------------------------------------------------------------------------------
+1. University Silver Medal
+   Awarding Body : National Institute of Technology Silchar
+   Description   : For outstanding academic performance in M.Tech. program
+   Year          : 2020
+
+2. Senior Research Fellowship
+   Awarding Body : Ministry of Education (India)
+   Description   : For Ph.D. research in Transportation Engineering
+   Year          : 2023 – 2024
+
+3. Junior Research Fellowship
+   Awarding Body : Ministry of Education (India)
+   Description   : For Ph.D. research in Transportation Engineering
+   Year          : 2020 – 2022
+
+4. Research Fellowship
+   Awarding Body : Ministry of Human Resource Development (India)
+   Description   : For M.Tech. research in Transportation Engineering
+   Year          : 2018 – 2020
+
+--------------------------------------------------------------------------------
+MENTORSHIP
+--------------------------------------------------------------------------------
+Research Mentorship:
+  - Guided 3 M.Tech. students in their thesis work on traffic safety analysis
+  - Supervised 5 B.Tech. students in their final year projects
+  - Mentored junior researchers in traffic simulation and data analysis
+
+--------------------------------------------------------------------------------
+PEER REVIEW ACTIVITIES
+--------------------------------------------------------------------------------
+Journal Reviewer:
+  - Advances in Transportation Studies [Publisher: Aracne Editrice]
+  - Transportation in Developing Economies [Publisher: Springer]
+  - Asian Transport Studies [Publisher: Springer]
+  - International Journal of Pavement Research and Technology [Publisher: Springer]
+
+Conference Reviewer:
+  - Transportation Research Board (TRB) Annual Meeting
+  - Conference of Transport Research Group (CTRG)
+  - International Conference on Transportation Planning and Implementation
+    Methodologies for Developing Countries (TPMDC)
+  - International Conference on Transportation Infrastructure Projects:
+    Conception to Execution (TIPCE)
+
+--------------------------------------------------------------------------------
+OTHER ACTIVITIES
+--------------------------------------------------------------------------------
+Organizing Committee:
+  - Organizing Committee Member : 15th International Conference on TPMDC 2024,
+                                   IIT Bombay
+  - Session Coordinator         : 15th International Conference on TPMDC 2024,
+                                   IIT Bombay
+  - Organizing Committee Member : International Workshop on STRIDE 2025,
+                                   IIT Bombay
+  - Organizing Committee Member : User Workshop 2.0 TUTEM 2025,
+                                   BITS Pilani – Hyderabad Campus
+
+Project Proposal:
+  - Project Proposal Writer: Suzuki Innovation Centre (SIC) by Next Bharat
+    Ventures (Under review)
+
+--------------------------------------------------------------------------------
+WEBSITE STRUCTURE (Pages)
+--------------------------------------------------------------------------------
+index.html      : Professional Background, Research Interests, Key Publications
+research.html   : Research Impact, Journals Preview, Journal Articles,
+                  Book Chapters & Proceedings, Conference Presentations
+education.html  : Education, Teaching Experience, Professional Experience,
+                  Technical Skills
+academics.html  : Academic Achievements, Mentorship, Peer Review Activities,
+                  Other Activities
+contact.html    : Contact Information, Academic Profiles
+search.html     : Site Search Functionality
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+
+from scholarly import scholarly
+
+# Google Scholar profile ID
+scholar_id = "CJPTgYwAAAAJ"
+
+# Search author by ID
+author = scholarly.search_author_id(scholar_id)
+
+# Fill the author profile with complete details
+author = scholarly.fill(author)
+
+# Extract metrics
+total_citations = author['citedby']
+h_index = author['hindex']
+i10_index = author['i10index']
+
+print("Total Citations:", total_citations)
+print("h-index:", h_index)
+print("i10-index:", i10_index)
+
+Use these to get the above values real-time using Scholarly API, and make it update like once a week.

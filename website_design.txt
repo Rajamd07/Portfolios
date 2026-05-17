@@ -1,0 +1,52 @@
+Contents :
+1. Academic Profiles (Email, Google Scholar, ORCID, Scopus, ResearchGate, LinkedIn)
+2. Professional Background
+3. Research Interests
+4. Research Impact Metrics
+5. Journal Articles
+6. Book Chapters & Proceedings
+7. Conference Presentations
+8. Education
+9. Teaching Experience
+10. Professional Experience
+11. Technical Skills
+12. Academic Achievements
+13. Mentorship
+14. Peer Review Activities
+15. Other Activities
+
+
+
+
+Others :
+1. Contact :
+in two ways : email and form 
+Email : we can handle it by the redirect into the email dialog box (we can suggest the template) - scope : quires - need a separate email for this
+Form : Simple we can handle it in the excel - scope : quires 
+
+Need to identify the exact scope of the contact
+
+2. Feedbacks or review or greetings : 
+we can get the feedback from anyone - but we need to approve it to list in websites - handle by excel
+admin can :
+1. approve the feedbacks to show in website
+2. remove the feedback from website
+3. can set the day wise feedback in a week - once (can also edit it)
+
+Admin need a UI page to view, approval process 
+
+
+3. PhD / MTech application checklist :
+
+An interactive checklist for students applying to IIT programs — documents needed, timeline, SOP tips, and common mistakes. Saves students hours of confusion and builds goodwill toward the professor.
+
+4. Research paper evaluator :
+
+Upload a paper abstract and get an AI-powered critique — methodology gaps, citation suggestions, clarity score. Positioned as a pre-submission sanity check. Extremely shareable among researchers.
+
+5. Book a 15-min consultation slot (mentoring-through websites):
+
+A Calendly-style booking widget for students to schedule a brief call — for career advice, research direction, or collaboration inquiries. Rare for a professor to offer this publicly. Instantly sets him apart.
+
+
+

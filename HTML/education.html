@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Education, teaching experience, professional experience, and technical skills of Dr. Mohamed Hasain N.">
+  <title>Education — Dr. Mohamed Hasain N</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/components.css">
+  <link rel="stylesheet" href="../CSS/animations.css">
+  <link rel="stylesheet" href="../CSS/responsive.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen"><div class="loader-ring"></div><div class="loader-text">Loading...</div></div>
+  <div class="bg-grid"></div>
+  <div class="bg-gradient-blob blob-cyan"></div>
+  <div class="bg-gradient-blob blob-purple"></div>
+  <canvas id="particle-canvas"></canvas>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-custom" id="mainNav">
+    <div class="container-custom">
+      <a class="navbar-brand" href="index.html"><span class="brand-dot"></span>MH<span class="text-gradient">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link active" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+          <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn-outline-glow" href="search.html" style="padding:0.4rem 1rem;font-size:0.8rem;"><i class="bi bi-search"></i> Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section-padding" style="padding-top:calc(var(--section-padding) + 80px);">
+    <div class="container-custom">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="bi bi-mortarboard"></i> Education</span>
+        <h1>Academic <span class="text-gradient">Journey</span></h1>
+        <p>Education, teaching, professional experience, and technical expertise</p>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline -->
+  <section class="section-padding" style="background:var(--bg-secondary);padding-top:2rem;" id="educationSection">
+    <div class="container-custom">
+      <h3 class="mb-4 reveal"><i class="bi bi-mortarboard text-cyan me-2"></i>Education</h3>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="timeline reveal" id="educationTimeline">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Experience -->
+  <section class="section-padding" id="teachingSection">
+    <div class="container-custom">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="bi bi-easel"></i> Teaching</span>
+        <h2>Teaching <span class="text-gradient">Experience</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row g-4" id="teachingGrid">
+        <!-- Populated by JS -->
+      </div>
+      <div class="mt-4 reveal">
+        <div class="glass-card" style="border-left:3px solid var(--purple);">
+          <p style="color:var(--text-secondary);margin:0;" id="teachingNote">
+            <i class="bi bi-info-circle text-purple me-2"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience -->
+  <section class="section-padding" style="background:var(--bg-secondary);" id="experienceSection">
+    <div class="container-custom">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="bi bi-briefcase"></i> Experience</span>
+        <h2>Professional <span class="text-gradient">Experience</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="glass-card reveal border-gradient-anim" id="experienceCard">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section-padding" id="skillsSection">
+    <div class="container-custom">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="bi bi-tools"></i> Skills</span>
+        <h2>Technical <span class="text-gradient">Skills</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="stagger-children" id="skillsContainer">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    <div class="container-custom">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">Dr. Mohamed Hasain N</div>
+          <p class="footer-text">Postdoctoral Researcher at IIT Bombay.</p>
+          <div class="footer-social mt-3" id="footerSocials"></div>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links"><h5>Navigate</h5><ul><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="education.html">Education</a></li><li><a href="academics.html">Academics</a></li></ul></div>
+        <div class="col-lg-2 col-md-6 footer-links"><h5>More</h5><ul><li><a href="tools.html">Tools</a></li><li><a href="contact.html">Contact</a></li><li><a href="search.html">Search</a></li></ul></div>
+        <div class="col-lg-4 col-md-6 footer-links"><h5>Contact</h5><ul><li><a href="mailto:mohamedhasaincivil@gmail.com"><i class="bi bi-envelope"></i> mohamedhasaincivil@gmail.com</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span id="footerYear"></span> Dr. Mohamed Hasain N. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop"><i class="bi bi-chevron-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../JS/app.js"></script>
+  <script src="../JS/animations.js"></script>
+  <script src="../JS/components.js"></script>
+</body>
+</html>

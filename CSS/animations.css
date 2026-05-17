@@ -1,0 +1,252 @@
+/* ============================================================
+   ANIMATIONS — Scroll Reveals, Transitions, Effects
+   ============================================================ */
+
+/* ---------- Scroll Reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+}
+
+.reveal-left.revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+}
+
+.reveal-right.revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+}
+
+.reveal-scale.revealed {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger children */
+.stagger-children > * {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.6s var(--ease-smooth), transform 0.6s var(--ease-smooth);
+}
+
+.stagger-children.revealed > *:nth-child(1) { transition-delay: 0.05s; }
+.stagger-children.revealed > *:nth-child(2) { transition-delay: 0.1s; }
+.stagger-children.revealed > *:nth-child(3) { transition-delay: 0.15s; }
+.stagger-children.revealed > *:nth-child(4) { transition-delay: 0.2s; }
+.stagger-children.revealed > *:nth-child(5) { transition-delay: 0.25s; }
+.stagger-children.revealed > *:nth-child(6) { transition-delay: 0.3s; }
+.stagger-children.revealed > *:nth-child(7) { transition-delay: 0.35s; }
+.stagger-children.revealed > *:nth-child(8) { transition-delay: 0.4s; }
+
+.stagger-children.revealed > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Typing Cursor ---------- */
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background: var(--cyan);
+  margin-left: 2px;
+  animation: blink-cursor 0.8s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ---------- Counter Animate ---------- */
+.counter-animate {
+  display: inline-block;
+}
+
+/* ---------- Tilt Effect for Cards ---------- */
+.tilt-card {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+/* ---------- Magnetic Button ---------- */
+.magnetic-wrap {
+  display: inline-block;
+}
+
+/* ---------- Glow Line ---------- */
+.glow-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  margin: 3rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-line::after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  background: var(--cyan);
+  filter: blur(4px);
+  animation: glow-sweep 3s ease-in-out infinite;
+}
+
+@keyframes glow-sweep {
+  0% { left: -80px; }
+  100% { left: calc(100% + 80px); }
+}
+
+/* ---------- Parallax Sections ---------- */
+.parallax-element {
+  will-change: transform;
+}
+
+/* ---------- Hover Lift ---------- */
+.hover-lift {
+  transition: transform 0.3s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Page Transition ---------- */
+.page-transition {
+  animation: pageIn 0.5s var(--ease-smooth);
+}
+
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Text Shimmer ---------- */
+.text-shimmer {
+  background: linear-gradient(90deg, var(--text-primary) 0%, var(--cyan) 50%, var(--text-primary) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+
+/* ---------- Pulse Ring ---------- */
+.pulse-ring {
+  position: relative;
+}
+
+.pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  border: 2px solid var(--cyan);
+  opacity: 0;
+  animation: pulse-ring-anim 2s ease-out infinite;
+}
+
+@keyframes pulse-ring-anim {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.15); opacity: 0; }
+}
+
+/* ---------- Floating Particles (CSS only fallback) ---------- */
+.floating-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--cyan);
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float-particle 8s infinite ease-in-out;
+}
+
+@keyframes float-particle {
+  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+  25% { transform: translate(20px, -30px); opacity: 0.6; }
+  50% { transform: translate(-10px, -60px); opacity: 0.2; }
+  75% { transform: translate(30px, -30px); opacity: 0.5; }
+}
+
+/* ---------- Border Gradient Animation ---------- */
+.border-gradient-anim {
+  position: relative;
+  border: none !important;
+}
+
+.border-gradient-anim::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(45deg, var(--cyan), var(--purple), var(--magenta), var(--cyan));
+  background-size: 300% 300%;
+  animation: gradient-rotate 4s linear infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+@keyframes gradient-rotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ---------- Prefers reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal, .reveal-left, .reveal-right, .reveal-scale {
+    opacity: 1;
+    transform: none;
+  }
+  .stagger-children > * {
+    opacity: 1;
+    transform: none;
+  }
+}

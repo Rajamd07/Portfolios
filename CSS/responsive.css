@@ -1,0 +1,215 @@
+/* ============================================================
+   RESPONSIVE — Mobile, Tablet, Laptop, TV, Ultrawide
+   ============================================================ */
+
+/* ---------- Small Phones (320px – 480px) ---------- */
+@media (max-width: 480px) {
+  :root {
+    --section-padding: 3rem;
+  }
+
+  .hero-section {
+    padding-top: 70px;
+    min-height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .hero-stats {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-stat-value {
+    font-size: 1.5rem;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn-glow,
+  .hero-actions .btn-outline-glow {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .glass-card {
+    padding: 1.2rem;
+  }
+
+  .metric-value {
+    font-size: 2rem;
+  }
+
+  .pub-card {
+    padding: 1.2rem;
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-dot {
+    left: -27px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .slot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-main {
+    text-align: center;
+  }
+
+  .footer-text {
+    margin: 0 auto 1rem;
+  }
+}
+
+/* ---------- Phones (481px – 767px) ---------- */
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-visual {
+    display: none;
+  }
+
+  .hero-stats {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slot-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Tablets (768px – 991px) ---------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-orb {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-stats {
+    gap: 2rem;
+  }
+
+  .orb-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Laptops (992px – 1399px) ---------- */
+@media (min-width: 992px) and (max-width: 1399px) {
+  /* Default styles work well here */
+}
+
+/* ---------- Large Desktops / TVs (1400px – 2559px) ---------- */
+@media (min-width: 1400px) {
+  :root {
+    --container-max: 1600px;
+    --section-padding: clamp(5rem, 8vw, 10rem);
+  }
+
+  html {
+    font-size: 17px;
+  }
+
+  .hero-orb {
+    width: 450px;
+    height: 450px;
+  }
+
+  .glass-card {
+    padding: 2.5rem;
+  }
+
+  .metric-value {
+    font-size: 3.5rem;
+  }
+}
+
+/* ---------- 4K / Ultrawide (2560px+) ---------- */
+@media (min-width: 2560px) {
+  :root {
+    --container-max: 2000px;
+    --section-padding: 12rem;
+  }
+
+  html {
+    font-size: 20px;
+  }
+
+  .hero-orb {
+    width: 550px;
+    height: 550px;
+  }
+
+  .navbar-custom .nav-link {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem !important;
+  }
+
+  .glass-card {
+    padding: 3rem;
+    border-radius: var(--radius-xl);
+  }
+
+  .metric-value {
+    font-size: 4rem;
+  }
+
+  .pub-card {
+    padding: 2.5rem;
+  }
+
+  .footer-main {
+    padding: 6rem 0 3rem;
+  }
+}
+
+/* ---------- Print Styles ---------- */
+@media print {
+  .navbar-custom,
+  .back-to-top,
+  .cursor-follower,
+  .loading-screen,
+  #particle-canvas,
+  .bg-grid,
+  .bg-gradient-blob {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .glass-card {
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+}
