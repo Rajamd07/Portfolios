@@ -42,7 +42,7 @@ function performSearch(query) {
     if (searchText.includes(q)) {
       results.push({
         page: 'Research',
-        link: 'research.html#articles',
+        link: '/research#articles',
         title: pub.title,
         snippet: `${pub.authors} — ${pub.journal}, ${pub.year}`,
         text: searchText
@@ -56,7 +56,7 @@ function performSearch(query) {
     if (searchText.includes(q)) {
       results.push({
         page: 'Book Chapters',
-        link: 'research.html#bookChapters',
+        link: '/research#bookChapters',
         title: ch.title,
         snippet: `${ch.authors} — ${ch.source}, ${ch.year}`,
         text: searchText
@@ -70,7 +70,7 @@ function performSearch(query) {
     if (searchText.includes(q)) {
       results.push({
         page: 'Conferences',
-        link: 'research.html#conferences',
+        link: '/research#conferences',
         title: c.title,
         snippet: `${c.conference} — ${c.location}, ${c.year}`,
         text: searchText
@@ -84,7 +84,7 @@ function performSearch(query) {
     if (searchText.includes(q)) {
       results.push({
         page: 'Education',
-        link: 'education.html#educationSection',
+        link: '/education#educationSection',
         title: ed.degree,
         snippet: `${ed.institution} — ${ed.period}`,
         text: searchText
@@ -98,7 +98,7 @@ function performSearch(query) {
       if (skill.toLowerCase().includes(q) || cat.toLowerCase().includes(q)) {
         results.push({
           page: 'Skills',
-          link: 'education.html#skillsSection',
+          link: '/education#skillsSection',
           title: skill,
           snippet: `Category: ${cat}`,
           text: `${skill} ${cat}`.toLowerCase()
@@ -113,7 +113,7 @@ function performSearch(query) {
     if (searchText.includes(q)) {
       results.push({
         page: 'Achievements',
-        link: 'academics.html#achievementsSection',
+        link: '/academics#achievementsSection',
         title: ach.title,
         snippet: `${ach.description} — ${ach.awardingBody}`,
         text: searchText
@@ -126,7 +126,7 @@ function performSearch(query) {
     if (interest.toLowerCase().includes(q)) {
       results.push({
         page: 'Home',
-        link: 'index.html#interests',
+        link: '/#interests',
         title: interest,
         snippet: 'Research Interest',
         text: interest.toLowerCase()
@@ -138,7 +138,7 @@ function performSearch(query) {
   if (data.professionalBackground.toLowerCase().includes(q)) {
     results.push({
       page: 'Home',
-      link: 'index.html#about',
+      link: '/#about',
       title: 'Professional Background',
       snippet: highlightSnippet(data.professionalBackground, query, 120),
       text: data.professionalBackground.toLowerCase()
@@ -150,7 +150,7 @@ function performSearch(query) {
     if (j.name.toLowerCase().includes(q)) {
       results.push({
         page: 'Peer Review',
-        link: 'academics.html#peerReviewSection',
+        link: '/academics#peerReviewSection',
         title: j.name,
         snippet: `Journal Reviewer — ${j.publisher}`,
         text: j.name.toLowerCase()
